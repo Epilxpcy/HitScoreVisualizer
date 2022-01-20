@@ -1,5 +1,5 @@
 {
-  "isDefaultConfig": true,
+  "isDefaultConfig": false,
   "useFixedPos": false,
   "fixedPosX": 0.0,
   "fixedPosY": 0.0,
@@ -8,8 +8,8 @@
   "timeDependencyDecimalOffset": 2,
   "judgments": [
     {
-      "threshold": 115,
-      "text": "%BFantastic%A%n%s",
+      "threshold": 15,
+      "text": "<size=150%>%s</size>",
       "color": [
         1.0,
         1.0,
@@ -19,56 +19,56 @@
       "fade": false
     },
     {
-      "threshold": 101,
-      "text": "<size=80%>%BExcellent%A</size>%n%s",
+      "threshold": 10,
+      "text": "<size=150%>%s</size>",
       "color": [
         0.0,
+        0.1333333,
         1.0,
-        0.0,
         1.0
       ],
       "fade": false
     },
     {
-      "threshold": 90,
-      "text": "<size=80%>%BGreat%A</size>%n%s",
+      "threshold": 9,
+      "text": "<size=150%>%s</size>",
       "color": [
         1.0,
-        0.980392158,
-        0.0,
+        1.0,
+        1.0,
         1.0
       ],
       "fade": false
     },
     {
-      "threshold": 80,
-      "text": "<size=80%>%BGood%A</size>%n%s",
+      "threshold": 8,
+      "text": "<size=150%>%s</size>",
       "color": [
         1.0,
-        0.6,
-        0.0,
+        1.0,
+        1.0,
         1.0
       ],
       "fade": true
     },
     {
-      "threshold": 60,
-      "text": "<size=80%>%BDecent%A</size>%n%s",
+      "threshold": 6,
+      "text": "<size=150%>%s</size>",
       "color": [
         1.0,
-        0.0,
-        0.0,
+        1.0,
+        1.0,
         1.0
       ],
       "fade": true
     },
     {
       "threshold": 0,
-      "text": "<size=80%>%BWay Off%A</size>%n%s",
+      "text": "<size=150%>%s</size>",
       "color": [
-        0.5,
-        0.0,
-        0.0,
+        1.0,
+        1.0,
+        1.0,
         1.0
       ],
       "fade": true
@@ -77,7 +77,7 @@
   "beforeCutAngleJudgments": [
     {
       "threshold": 70,
-      "text": "+"
+      "text": ""
     },
     {
       "threshold": 0,
@@ -87,7 +87,7 @@
   "accuracyJudgments": [
     {
       "threshold": 15,
-      "text": " + "
+      "text": "  "
     },
     {
       "threshold": 0,
@@ -97,7 +97,7 @@
   "afterCutAngleJudgments": [
     {
       "threshold": 30,
-      "text": " + "
+      "text": "  "
     },
     {
       "threshold": 0,
